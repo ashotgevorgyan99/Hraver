@@ -1,0 +1,305 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9); /* White background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#popup-image {
+    width: 350px; /* Adjust the size as needed */
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.play-container {
+    margin: 20px 0;
+}
+
+#play-music-btn {
+    cursor: pointer;
+    width: 80px; /* Adjust the size as needed */
+}
+
+.popup-text {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+.text0{
+    margin-left:50px ;
+}
+
+.div4 {
+
+    background-color: #ffffff;
+    width: 100vw;
+}
+
+.nkar {
+    position: relative;
+    top: 20px;
+}
+
+.nkar1 {
+    width: 220px;
+    border-radius: 200px;
+    position: absolute;
+    padding: 3px;
+    
+    
+}
+
+.nkar2 {
+    width: 220px;
+    border-radius: 200px;
+    position: absolute;
+    left: 200px;
+    z-index: 1;
+    top:50px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #333;
+    text-align:center;
+}
+p{
+   font-family: 'Arial', sans-serif; 
+   text-align:center;
+   font-size:20px;
+}
+.positioning {
+  position: absolute; /* Կարող եք օգտագործել relative եթե ցանկանում եք սահմանել տեղադրումը խոշոր տարրի նկատմամբ */
+  bottom:-90px; /* Ներկայացնում է ներքև */
+  left: 50px; /* Ներկայացնում է ձախ */
+}
+
+.p1{
+font-family: 'Arial', sans-serif; 
+     font-size: 55px; /* Տեքստի մեծությունը կարող եք փոխել ձեր ցանկությամբ */
+ font-weight: 1000; /* Արտաքին տեսքը դարձնում է հաստ */
+ color: #3f3f3f;
+}
+.span{
+font-family: system-ui;
+    font-size: 60px;
+      font-weight: normal; /* Բարակ բառ */;
+      color: #3f3f3f;
+       font-weight: 100; /* Ընտրություն ավելին բարակ տեքստի համար */
+}
+.div3{ 
+display:flex;
+margin-top:580px;
+
+}
+
+.text1{
+   
+    margin-left:30px ;
+   
+}
+
+.dzax{
+    font-family: 'Arial', sans-serif;
+    
+    font-size: 15px;
+    color: #333;
+    text-align:center;
+}
+.nkar3{
+    width: 200px;
+    border-radius: 300px;
+      padding-top:70px;
+      margin-left:10px ;
+     
+}
+.p2{
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    font-size:10px;
+}
+hr{
+    width: 85px;
+    margin-left:  45px;
+    border:none;
+    height: 2px;
+    background-color:#000000 ;
+}
+.h2{
+    font-family: 'Arial', sans-serif; 
+    text-align:center;
+   font-size:30px;
+   font-weight: 800;
+}
+.icon{
+width: 20px;
+height: 20px;
+   padding-left:70px;
+    
+}
+
+.text1 p,
+.text1 h1,
+.text1 .dzax,
+.text1 .p2 {
+    line-height: 2; /* Adjust this value as needed */
+    margin: 0;
+    padding: 0;
+}
+
+    .map-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 15px 10px;
+            font-size: 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 45px;
+        }
+
+        .map-button:hover {
+            background-color: #333;
+        }
+
+.div2{
+    display:flex;
+margin-top:100px;
+}
+
+
+.nkar4{
+    width: 200px;
+    border-radius: 300px;
+    margin-left:30px ;
+}
+        
+        .text2 p,
+.text2 h1,
+.text2 .dzax,
+.text2 .p2 {
+    line-height: 2; /* Adjust this value as needed */
+    margin: 0;
+    padding: 0;
+}
+.text2{
+    margin-left:20px ;
+}
+.hr1{
+    margin-right: 45px;
+}
+.div1{
+    display:flex;
+margin-top:100px;
+}
+
+.nkar{
+    width: 200px;
+    border-radius: 300px;
+    margin-left:5px ;
+}
+.text5{
+    margin-top:60px ;
+    margin-left:30px ;
+}
+
+
+.text5 h1,
+.text5 .p2,
+.text5 .p3  {
+    line-height: 1; /* Adjust this value as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.text5 .p2, 
+.text5 .p3 {
+     
+     font-family: system-ui;
+    font-size: 30px;
+      font-weight: normal; /* Բարակ բառ */;
+      color: #3f3f3f;
+       font-weight: 100; /* Ընտրություն ավելին բարակ տեքստի համար */
+ }
+
+.p3{
+      text-align: right;
+
+}
+
+
+#countdown {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top:100px;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+#countdown h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.time-segment {
+    margin: 0 15px;
+    text-align: center;
+}
+
+#timer span {
+    font-size: 48px;
+    display: block;
+}
+
+#timer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.separator {
+    width: 1px;
+    height: 60px;
+    background-color: #000;
+}

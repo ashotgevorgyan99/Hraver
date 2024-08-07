@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="music-popup" class="popup">
+        <div class="popup-content">
+            <img id="popup-image" src="your-image-file.jpg" alt="Popup Image">
+            <div class="play-container">
+                <img id="play-music-btn" src="pause-icon.png" alt="Play Music">
+            </div>
+            <h1>Հարսանյաց հրավիրատոմս</h1>
+        </div>
+    </div>
+<br>
+    <div id="main-content" class="hidden">
+        <div class="headr">
+            <div class="div4">
+                <div class="text">
+                    <button onclick="toggleMusic()">
+                        <img src="free-icon-play.png" class="pause-icon" alt="">
+                    </button>
+                    <audio id="myAudio" preload="auto">
+                        <source src="your-audio-file.mp3" type="audio/mpeg">
+                        Ձեր զննարկիչը չի աջակցում այս աուդիո ֆորմատին:
+                    </audio>
+                    <div class="text0">
+                    <h1>ՍԻՐԵԼԻ ՀՅՈՒՐԵՐ</h1>
+                    <p>Մենք ցանկանում ենք Ձեզ հետ<br>
+                       կիսել մեր կյանքի կարևորագույն<br> 
+                       օրերից մեկը, որը տեղի կունենա</p>
+                    </div>
+                    
+                </div>
+                <div class="nkar">
+                    <img src="nkar2.jpeg" class="nkar1" alt="">
+                    <img src="nkar1.jpeg" class="nkar2" alt="">
+                    
+                    </div>
+                    
+                <div class="positioning">
+    
+                    <p class="p1">11/09<br>
+                    <span class="span">2024</span></p>
+                    
+                    </div>
+                    
+                    
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="div3">
+        
+        <div class="ekexeci"> 
+            
+           <img src="ekexeci.jpeg" class="nkar3" alt="">
+        </div>
+        <div class="text1">
+             <p class="h2">ԾՐԱԳԻՐ</p>
+             <img src="icon.png" class="icon" alt="">
+            <h1 class="dzax">Խոր Վիրապ վանական <br> համալիր </h1>
+               <hr>
+               <p class="p2">Արարատի մարզ,<br>
+                   Գ. Լուսառատ</p>
+                   <p class="h2">
+                       15:00
+                   </p>
+                   <button class="map-button" onclick="openGoogleMaps()">Ինչպես  գնալ</button>
+        </div>
+        
+    </div>
+    
+    
+    <div class="div2">
+        <div class="text2"><img src="icon.png" class="icon" alt="">
+            <h1 class="dzax">Rubina Hall</h1>
+               <hr class="hr1">
+               <p class="p2">Փարաքար,<br>Մերձավանի խճուղի 7
+                   </p>
+                   <p class="h2">
+                       17:00
+                   </p>
+                   <button class="map-button" onclick="openGoogleMaps()">Ինչպես  գնալ</button>
+        </div>
+        <div class="restoran"> <img src="restoran.jpeg" class="nkar4" alt=""> </div>
+    </div>
+    
+    
+    <div class="div1">
+        
+        <div class="nkar">
+             <img src="nkar.jpeg" class="nkar" alt=""> 
+          
+                </div>
+        
+        <div class="text5">
+               <h1 class="dzax">Սիրով սպասում ենք <br> <br> Ձեզ մեր հարսանիքին</h1>
+               <br><br>
+               <hr class="hr1">
+               <br><br>
+               <p class="p2"><b>Ա</b>րամ և</p>
+                    
+                    
+                    <p class="p3"><b>Մ</b>արի</p>
+        </div>
+    </div>
+    
+    
+    <div id="countdown" class="countdown">
+    <h2>Հարսանիքին մնաց</h2>
+    <div id="timer">
+        <div class="time-segment"><span id="days"></span><p>օր</p></div>
+        <div class="separator"></div>
+        <div class="time-segment"><span id="hours"></span><p>ժամ</p></div>
+        <div class="separator"></div>
+        <div class="time-segment"><span id="minutes"></span><p>րոպե</p></div>
+        <div class="separator"></div>
+        <div class="time-segment"><span id="seconds"></span><p>վայրկյան</p></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
