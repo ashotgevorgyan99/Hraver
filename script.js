@@ -20,16 +20,14 @@ function toggleMusic() {
         audio.pause();
     }
 }
-function openGoogleMaps() {
-            window.open('https://www.google.com/maps', '_blank');
-        }
+
         
         
         document.addEventListener("DOMContentLoaded", function() {
     // Existing code...
 
     // Countdown logic
-    const countdownDate = new Date("Sep 11, 2024 00:00:00").getTime();
+    const countdownDate = new Date("Sep 19, 2024 00:00:00").getTime();
 
     const countdownFunction = setInterval(function() {
         const now = new Date().getTime();
@@ -51,3 +49,6 @@ function openGoogleMaps() {
         }
     }, 1000);
 });
+
+
+
