@@ -5,6 +5,8 @@ body, html {
     height: 100%;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
+  
+ 
 }
 
 .popup {
@@ -80,9 +82,11 @@ body, html {
     width: 220px;
     border-radius: 200px;
     position: absolute;
-    left: 200px;
+    left: 195px;
     z-index: 1;
     top:50px;
+    border: 5px solid white; /* Սահմանում է 5px հաստությամբ սպիտակ եզրագիծ */
+  
 }
 
 h1 {
@@ -125,6 +129,7 @@ margin-top:580px;
 .text1{
    
     margin-left:30px ;
+     
    
 }
 
@@ -138,7 +143,7 @@ margin-top:580px;
 .nkar3{
     width: 200px;
     border-radius: 300px;
-      padding-top:70px;
+      margin-top:70px;
       margin-left:10px ;
      
 }
@@ -174,6 +179,7 @@ height: 20px;
     line-height: 2; /* Adjust this value as needed */
     margin: 0;
     padding: 0;
+    margin-left:20px ;
 }
 
     .map-button {
@@ -187,6 +193,7 @@ height: 20px;
             font-weight: bold;
             text-transform: uppercase;
             margin-left: 45px;
+         
         }
 
         .map-button:hover {
@@ -202,7 +209,7 @@ margin-top:100px;
 .nkar4{
     width: 200px;
     border-radius: 300px;
-    margin-left:30px ;
+    margin-left:25px ;
 }
         
         .text2 p,
@@ -303,3 +310,43 @@ margin-top:100px;
     height: 60px;
     background-color: #000;
 }
+
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    
+}
+
+
+
+.map-button:hover {
+    transform: scale(1.1);
+    
+}
+
+.map-button:active {
+    animation: map-button-animate 0.5s forwards;
+}
+
+@keyframes map-button-animate {
+    0% {
+        transform: scale(1);
+        background-color: #3498db;
+    }
+    50% {
+        transform: scale(0.9) rotate(5deg);
+        background-color: #2980b9;
+    }
+    100% {
+        transform: scale(1);
+        background-color: #3498db;
+    }
+}
+
+
+
+
+
+    
