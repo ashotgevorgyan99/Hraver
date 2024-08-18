@@ -373,6 +373,5 @@ hr {
 /* Global container styles */
 .container {
     max-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    
     }
