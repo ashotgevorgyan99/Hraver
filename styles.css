@@ -1,3 +1,4 @@
+/* General styles */
 body, html {
     margin: 0;
     padding: 0;
@@ -5,17 +6,16 @@ body, html {
     height: 100%;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-  
- 
 }
 
+/* Popup styles */
 .popup {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.9); /* White background */
+    background: rgba(255, 255, 255, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ body, html {
 }
 
 #popup-image {
-    width: 350px; /* Adjust the size as needed */
+    width: 350px;
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
@@ -43,7 +43,7 @@ body, html {
 
 #play-music-btn {
     cursor: pointer;
-    width: 80px; /* Adjust the size as needed */
+    width: 80px;
 }
 
 .popup-text {
@@ -51,15 +51,13 @@ body, html {
     color: #333;
 }
 
+/* Main content visibility */
 .hidden {
     display: none;
 }
-.text0{
-    margin-left:50px ;
-}
 
+/* Head section styling */
 .div4 {
-
     background-color: #ffffff;
     width: 100vw;
 }
@@ -74,8 +72,6 @@ body, html {
     border-radius: 200px;
     position: absolute;
     padding: 3px;
-    
-    
 }
 
 .nkar2 {
@@ -84,194 +80,218 @@ body, html {
     position: absolute;
     left: 195px;
     z-index: 1;
-    top:50px;
-    border: 5px solid white; /* Սահմանում է 5px հաստությամբ սպիտակ եզրագիծ */
-  
+    top: 50px;
+    border: 5px solid white;
 }
 
+.text0 {
+    margin-left: 50px;
+}
+
+/* Text styling */
 h1 {
     font-family: 'Arial', sans-serif;
     font-weight: 300;
     font-size: 2em;
     color: #333;
-    text-align:center;
-}
-p{
-   font-family: 'Arial', sans-serif; 
-   text-align:center;
-   font-size:20px;
-}
-.positioning {
-  position: absolute; /* Կարող եք օգտագործել relative եթե ցանկանում եք սահմանել տեղադրումը խոշոր տարրի նկատմամբ */
-  bottom:-90px; /* Ներկայացնում է ներքև */
-  left: 50px; /* Ներկայացնում է ձախ */
+    text-align: center;
 }
 
-.p1{
-font-family: 'Arial', sans-serif; 
-     font-size: 55px; /* Տեքստի մեծությունը կարող եք փոխել ձեր ցանկությամբ */
- font-weight: 1000; /* Արտաքին տեսքը դարձնում է հաստ */
- color: #3f3f3f;
-}
-.span{
-font-family: system-ui;
-    font-size: 60px;
-      font-weight: normal; /* Բարակ բառ */;
-      color: #3f3f3f;
-       font-weight: 100; /* Ընտրություն ավելին բարակ տեքստի համար */
-}
-.div3{ 
-display:flex;
-margin-top:580px;
-
-}
-
-.text1{
-   
-    margin-left:30px ;
-     
-   
-}
-
-.dzax{
+p {
     font-family: 'Arial', sans-serif;
-    
+    text-align: center;
+    font-size: 20px;
+}
+
+.positioning {
+    position: absolute;
+    bottom: -90px;
+    left: 50px;
+}
+
+.p1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 55px;
+    font-weight: 1000;
+    color: #3f3f3f;
+}
+
+.span {
+    font-family: system-ui;
+    font-size: 60px;
+    font-weight: 100;
+    color: #3f3f3f;
+}
+
+/* Layout sections */
+.div3 {
+    display: flex;
+    margin-top: 580px;
+}
+
+.text1 {
+    margin-left: 30px;
+}
+
+.dzax {
+    font-family: 'Arial', sans-serif;
     font-size: 15px;
     color: #333;
-    text-align:center;
+    text-align: center;
 }
-.nkar3{
+
+.nkar3 {
     width: 200px;
     border-radius: 300px;
-      margin-top:70px;
-      margin-left:10px ;
-     
+    margin-top: 70px;
+    margin-left: 10px;
 }
-.p2{
+
+.p2 {
     font-family: 'Arial', sans-serif;
-    text-align:center;
-    font-size:10px;
+    text-align: center;
+    font-size: 10px;
 }
-hr{
+
+hr {
     width: 85px;
-    margin-left:  45px;
-    border:none;
+    margin-left: 45px;
+    border: none;
     height: 2px;
-    background-color:#000000 ;
+    background-color: #000000;
 }
-.h2{
-    font-family: 'Arial', sans-serif; 
-    text-align:center;
-   font-size:30px;
-   font-weight: 800;
+
+.h2 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
 }
-.icon{
-width: 20px;
-height: 20px;
-   padding-left:70px;
-    
+
+.icon {
+    width: 20px;
+    height: 20px;
+    padding-left: 70px;
 }
 
 .text1 p,
 .text1 h1,
 .text1 .dzax,
 .text1 .p2 {
-    line-height: 2; /* Adjust this value as needed */
+    line-height: 2;
     margin: 0;
     padding: 0;
-    margin-left:20px ;
+    margin-left: 20px;
 }
 
-    .map-button {
-            background-color: black;
-            color: white;
-            border: none;
-            padding: 15px 10px;
-            font-size: 10px;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-left: 45px;
-         
-        }
-
-        .map-button:hover {
-            background-color: #333;
-        }
-
-.div2{
-    display:flex;
-margin-top:100px;
+.map-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    font-size: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 45px;
 }
 
+.map-button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
 
-.nkar4{
+.map-button:active {
+    animation: map-button-animate 0.5s forwards;
+}
+
+@keyframes map-button-animate {
+    0% {
+        transform: scale(1);
+        background-color: #3498db;
+    }
+    50% {
+        transform: scale(0.9) rotate(5deg);
+        background-color: #2980b9;
+    }
+    100% {
+        transform: scale(1);
+        background-color: #3498db;
+    }
+}
+
+.div2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.nkar4 {
     width: 200px;
     border-radius: 300px;
-    margin-left:25px ;
+    margin-left: 25px;
 }
-        
-        .text2 p,
+
+.text2 p,
 .text2 h1,
 .text2 .dzax,
 .text2 .p2 {
-    line-height: 2; /* Adjust this value as needed */
+    line-height: 2;
     margin: 0;
     padding: 0;
 }
-.text2{
-    margin-left:20px ;
+
+.text2 {
+    margin-left: 20px;
 }
-.hr1{
+
+.hr1 {
     margin-right: 45px;
 }
-.div1{
-    display:flex;
-margin-top:100px;
+
+.div1 {
+    display: flex;
+    margin-top: 100px;
 }
 
-.nkar{
+.nkar {
     width: 200px;
     border-radius: 300px;
-    margin-left:5px ;
-}
-.text5{
-    margin-top:60px ;
-    margin-left:30px ;
+    margin-left: 5px;
 }
 
+.text5 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
 
 .text5 h1,
 .text5 .p2,
-.text5 .p3  {
-    line-height: 1; /* Adjust this value as needed */
+.text5 .p3 {
+    line-height: 1;
     margin: 0;
     padding: 0;
 }
 
 .text5 .p2, 
 .text5 .p3 {
-     
-     font-family: system-ui;
+    font-family: system-ui;
     font-size: 30px;
-      font-weight: normal; /* Բարակ բառ */;
-      color: #3f3f3f;
-       font-weight: 100; /* Ընտրություն ավելին բարակ տեքստի համար */
- }
-
-.p3{
-      text-align: right;
-
+    font-weight: 100;
+    color: #3f3f3f;
 }
 
+.p3 {
+    text-align: right;
+}
 
+/* Countdown timer styling */
 #countdown {
     background-color: #fff;
     color: #000;
     text-align: center;
     padding: 20px;
-    margin-top:100px;
+    margin-top: 100px;
     bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
@@ -311,42 +331,48 @@ margin-top:100px;
     background-color: #000;
 }
 
-
+/* Custom link styling */
 .custom-link {
     color: white;
     text-decoration: none;
     outline: none;
-    
 }
 
-
-
-.map-button:hover {
-    transform: scale(1.1);
-    
-}
-
-.map-button:active {
-    animation: map-button-animate 0.5s forwards;
-}
-
-@keyframes map-button-animate {
-    0% {
-        transform: scale(1);
-        background-color: #3498db;
-    }
-    50% {
-        transform: scale(0.9) rotate(5deg);
-        background-color: #2980b9;
-    }
-    100% {
-        transform: scale(1);
-        background-color: #3498db;
+/* For screens 2560px */
+@media screen and (min-width: 2560px) {
+    .container {
+        width: 1600px; /* Desired width */
+        margin: 0 auto;
     }
 }
 
+/* For screens 1440px */
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .container {
+        width: 1200px; /* Desired width */
+        margin: 0 auto;
+    }
+}
 
+/* For screens 1024px */
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .container {
+        width: 900px; /* Desired width */
+        margin: 0 auto;
+    }
+}
 
+/* For screens 768px */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        width: 700px; /* Desired width */
+        margin: 0 auto;
+    }
+}
 
-
-    
+/* Global container styles */
+.container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
