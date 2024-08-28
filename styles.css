@@ -109,10 +109,12 @@ p {
 }
 
 .positioning {
-    position: absolute;
-    bottom: -90px;
+   width: 50%;
+    height: 50px;
+  margin-top:400px;
     left: 50px;
 }
+
 
 .p1 {
     font-family: 'Arial', sans-serif;
@@ -131,7 +133,7 @@ p {
 /* Layout sections */
 .div3 {
     display: flex;
-    margin-top: 580px;
+    margin-top: 200px;
 }
 
 .text1 {
